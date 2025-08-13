@@ -11,7 +11,6 @@ on:
         description: "The git ref to checkout"
         required: true
         type: string
-  workflow_dispatch:
 
 jobs:
   publish-chart:
